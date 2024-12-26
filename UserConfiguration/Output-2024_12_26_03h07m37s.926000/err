@@ -1,0 +1,12 @@
+ds.core.StartupException: No connection established with LP dispatcher
+	at ds.core.DSClient.establishConnection(Unknown Source)
+	at ds.plugin.live.DSClientApp.<init>(Unknown Source)
+	at ds.plugin.live.DSClientApp.main(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at ddb.start.Start.beginImpl(Unknown Source)
+	at ddb.start.Start.access$800(Unknown Source)
+	at ddb.start.Start$13.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)

@@ -1,0 +1,14 @@
+err:  Traceback (most recent call last):
+err:    File "C:\Users\santi\Desktop\shadowbroker-master\windows\Resources\Python\Core\Lib\site.py", line 548, in <module>
+err:      main()
+err:    File "C:\Users\santi\Desktop\shadowbroker-master\windows\Resources\Python\Core\Lib\site.py", line 538, in main
+err:      aliasmbcs()
+err:    File "C:\Users\santi\Desktop\shadowbroker-master\windows\Resources\Python\Core\Lib\site.py", line 481, in aliasmbcs
+err:      codecs.lookup(enc)
+err:    File "C:\Users\santi\Desktop\shadowbroker-master\windows\Resources\Python\Core\Lib\encodings\__init__.py", line 83, in search_function
+err:      mod = __import__('encodings.' + modname, fromlist=_import_tail, level=0)
+err:    File "C:\Users\santi\Desktop\shadowbroker-master\windows\Resources\Python\Core\Lib\encodings\cp1252.py", line 44
+err:  SyntaxError: Non-ASCII character '\xe2' in file C:\Users\santi\Desktop\shadowbroker-master\windows\Resources\Python\Core\Lib\encodings\cp1252.py on line 44, but no encoding declared; see http://www.python.org/peps/pep-0263.html for details
+out:  null
+err:  null
+SEVERE:  No connection established with LP dispatcher
